@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --icon-fill: #65676b;
+    --light-grey: #f2f3f5;
+    --primary-color: #157a76;
+}
+
+body {
+    position: relative;
+    background-color: var(--light-grey);
+}
+
+.mobile-nav {
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid #c9ccd1;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mobile-icon {
+    width: 28px;
+}
+
+.mobile-icon:hover {
+    --icon-fill: var(--primary-color);
+}
