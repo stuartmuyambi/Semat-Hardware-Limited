@@ -3,7 +3,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Regular';
+    font-family: "Roboto-Regular";
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
     font-weight: normal;
 }
@@ -17,22 +17,22 @@
 body {
     position: relative;
     background-color: var(--light-grey);
-    font-family: 'Roboto-Regular';
+    font-family: "Roboto-Regular";
 }
 
 .mobile-nav {
     position: absolute;
     background-color: white;
     border-bottom: 1px solid #c9ccd1;
-    padding: 8px 20px;
+    padding: 9px 20px;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
 .mobile-icon {
-    width: 28px;
-    margin-bottom: 4px;
+    width: 22px;
+    margin-bottom: 7px;
 }
 
 .mobile-icon:hover {
@@ -49,5 +49,5 @@ body {
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 12px;
 }
