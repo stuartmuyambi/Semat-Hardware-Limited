@@ -19,6 +19,10 @@ body {
     font-family: "Roboto-Regular";
 }
 
+nav ul {
+    list-style-type: none;
+}
+
 .mobile-nav {
     position: fixed;
     bottom: 0;
@@ -28,6 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 0;
 }
 
 .mobile-icon {
@@ -50,4 +55,5 @@ body {
     justify-content: center;
     text-transform: capitalize;
     font-size: 12px;
+    text-decoration: none;
 }
