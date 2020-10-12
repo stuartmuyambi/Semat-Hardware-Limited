@@ -11,7 +11,8 @@
 :root {
     --grey: #65676b;
     --light-grey: #f2f3f5;
-    --primary-color: #157a76;
+    --primary-color: #00ad9f;
+    --secondary-color: #15847d;
 }
 
 body {
@@ -35,13 +36,15 @@ nav ul {
     margin: 0;
 }
 
-.mobile-icon {
-    width: 21px;
-    margin-bottom: 5px;
+.mobile-nav li:hover,
+.mobile-nav li:active,
+.mobile-active {
+    --grey: var(--primary-color);
 }
 
-.mobile-icon:hover {
-    --grey: var(--primary-color);
+.mobile-icon {
+    width: 20px;
+    margin-bottom: 5px;
 }
 
 .mobile-icon-label {
