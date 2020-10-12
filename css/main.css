@@ -15,15 +15,15 @@
 }
 
 body {
-    position: relative;
     background-color: var(--light-grey);
     font-family: "Roboto-Regular";
 }
 
 .mobile-nav {
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     background-color: white;
-    border-bottom: 1px solid #c9ccd1;
+    border-top: 1px solid #c9ccd1;
     padding: 9px 20px;
     display: flex;
     justify-content: space-between;
@@ -50,19 +50,4 @@ body {
     justify-content: center;
     text-transform: capitalize;
     font-size: 12px;
-    position: relative;
-}
-
-.badge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    background: var(--primary-color);
-    border-radius: 50%;
-    width: 17px;
-    height: 17px;
-    color: white;
-    top: -10px;
-    right: -10px;
 }
