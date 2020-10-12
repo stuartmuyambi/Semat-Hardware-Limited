@@ -20,6 +20,32 @@ body {
     font-family: "Roboto-Regular";
 }
 
+.main-mobile-nav {
+    background-color: var(--secondary-color);
+    height: 80px;
+}
+
+.location {
+    background-color: #00ad9f2b;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #c9ccd16e;
+}
+
+.delivery-text {
+    font-size: 13px;
+    margin: 0;
+    color: #03363d;
+}
+
+.map-marker {
+    width: 18px;
+    --marker-color: #03363d;
+    margin-right: 2px;
+}
+
 nav ul {
     list-style-type: none;
 }
