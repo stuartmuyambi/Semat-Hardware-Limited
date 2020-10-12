@@ -2,8 +2,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
 :root {
-    --icon-fill: #65676b;
+    --grey: #65676b;
     --light-grey: #f2f3f5;
     --primary-color: #157a76;
 }
@@ -11,6 +17,7 @@
 body {
     position: relative;
     background-color: var(--light-grey);
+    font-family: 'Roboto-Regular';
 }
 
 .mobile-nav {
@@ -25,8 +32,22 @@ body {
 
 .mobile-icon {
     width: 28px;
+    margin-bottom: 4px;
 }
 
 .mobile-icon:hover {
-    --icon-fill: var(--primary-color);
+    --grey: var(--primary-color);
+}
+
+.mobile-icon-label {
+    color: var(--grey);
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 13px;
 }
