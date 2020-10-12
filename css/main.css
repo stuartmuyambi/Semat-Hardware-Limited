@@ -8,6 +8,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+
 :root {
     --grey: #65676b;
     --light-grey: #f2f3f5;
@@ -22,10 +29,29 @@ body {
 
 .main-mobile-nav {
     background-color: var(--secondary-color);
-    height: 80px;
-    padding: 5px 10px 9px;
+    height: 90px;
+    padding: 13px 10px 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.mobile-nav-top {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar {
+    --menu-bars: white;
+    width: 21px;
+    margin-right: 10px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .search-bar {
