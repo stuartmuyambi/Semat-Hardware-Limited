@@ -23,6 +23,37 @@ body {
 .main-mobile-nav {
     background-color: var(--secondary-color);
     height: 80px;
+    padding: 5px 10px 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar {
+    background-color: white;
+    border-radius: 3px;
+    height: 35px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.search-icon {
+    --grey: #65676b;
+    width: 18px;
+}
+
+[type=search] {
+    border: none;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 13px;
+    color: var(--grey);
+    height: 100%;
+}
+
+::placeholder {
+    color: var(--grey);
 }
 
 .location {
@@ -41,8 +72,8 @@ body {
 }
 
 .map-marker {
-    width: 18px;
     --marker-color: #03363d;
+    width: 18px;
     margin-right: 2px;
 }
 
