@@ -60,3 +60,21 @@ nav ul {
     font-size: 12px;
     text-decoration: none;
 }
+
+.cart {
+    position: relative;
+}
+
+.badge {
+    background: var(--primary-color);
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -7px;
+    right: -13px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
