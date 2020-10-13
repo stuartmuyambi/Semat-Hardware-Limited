@@ -71,6 +71,7 @@ body {
 
 [type=search] {
     border: none;
+    background-color: white;
     width: 100%;
     padding-left: 5px;
     font-size: 13px;
