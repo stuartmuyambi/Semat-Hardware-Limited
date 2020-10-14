@@ -263,11 +263,11 @@ nav ul {
 /* --------------- Products ---------------- */
 
 .products {
-  padding: 4rem 0;
+  padding: 20px 0 5rem;
 }
 .section-title h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 5rem;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);

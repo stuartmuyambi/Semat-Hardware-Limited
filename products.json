@@ -19,7 +19,7 @@
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "Construction Ves",
+        "title": "Construction Vest",
         "price": 13500,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-3.jpg" } } }
       }
@@ -35,80 +35,80 @@
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "price": 88.99,
+        "title": "Generator",
+        "price": 8800,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-15.jpg" } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "price": 32.99,
+        "title": "Bolt Handle",
+        "price": 32000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-6.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "HONDA Generator",
+        "price": 45000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-7.jpg" } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "table",
-        "price": 33.99,
+        "title": "BOSCH Drill",
+        "price": 33000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-8.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "5 Step Ladder",
+        "price": 5000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-9.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "Ladder",
+        "price": 35000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-10.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "Makita Drill",
+        "price": 54000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-11.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "White Roller",
+        "price": 12000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-12.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "Air Compressor",
+        "price": 149000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-13.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "Roller",
+        "price": 23000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-14.jpg" } } }
       }
     }
