@@ -49,7 +49,7 @@ body {
 
 .menu-bar {
     --menu-bars: white;
-    width: 21px;
+    width: 22px;
     margin-right: 10px;
 }
 
@@ -269,7 +269,6 @@ nav ul {
     justify-content: center;
 }
 
-
 /* --------------- End of Navbar ---------------- */
 
 /* --------------- Products ---------------- */
@@ -378,13 +377,27 @@ nav ul {
     overflow: scroll;
     z-index: 3;
     background: rgb(231, 226, 221);
-    padding: 1.5rem;
     transition: var(--mainTransition);
     transform: translateX(100%);
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .showCart {
     transform: translateX(0);
+}
+
+.cart-header {
+    height: 5rem;
+    background-color: var(--secondary-color);
+    border-bottom: 3px solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.cart-header-close {
+    width: 22px;
 }
 
 .transparentBcg {
