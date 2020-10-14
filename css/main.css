@@ -21,7 +21,6 @@
     --light-grey: #f2f3f5;
     --primary-color: #00ad9f;
     --secondary-color: #15847d;
-    --primaryColor: #f09d51;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -254,7 +253,7 @@ nav ul {
   position: absolute;
   top: -8px;
   right: -8px;
-  background: var(--primaryColor);
+  background: var(--primary-color);
   padding: 0 5px;
   border-radius: 30%;
   color: var(--mainWhite);
@@ -290,7 +289,7 @@ nav ul {
   position: absolute;
   top: 70%;
   right: 0;
-  background: var(--primaryColor);
+  background: var(--primary-color);
   border: none;
   text-transform: uppercase;
   padding: 0.5rem 0.75rem;
@@ -330,7 +329,7 @@ nav ul {
 .product h4 {
   margin-top: 0.7rem;
   letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
+  color: var(--primary-color);
   text-align: center;
 }
 
@@ -413,7 +412,7 @@ nav ul {
 }
 .fa-chevron-up,
 .fa-chevron-down {
-  color: var(--primaryColor);
+  color: var(--primary-color);
   cursor: pointer;
 }
 /*---------- End of Cart Item -------------------- */

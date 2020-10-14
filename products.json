@@ -11,24 +11,24 @@
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
-        "price": 12.99,
+        "title": "Construction Helmet",
+        "price": 24000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-2.jpg" } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
-        "price": 12.99,
+        "title": "Construction Ves",
+        "price": 13500,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-3.jpg" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
-        "price": 22.99,
+        "title": "BOSCH",
+        "price": 12300,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-4.jpg" } } }
       }
     },
