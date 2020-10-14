@@ -313,6 +313,7 @@ nav ul {
   width: 100%;
   min-height: 12rem;
   transition: var(--mainTransition);
+  border-radius: 5px;
 }
 .img-container:hover .product-img {
   opacity: 0.5;
