@@ -429,8 +429,8 @@ nav ul {
 }
 
 .cart-item img {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    /*height: 75px;*/
 }
 
 .cart-item h4 {
