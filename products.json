@@ -3,8 +3,8 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
-        "price": 10.99,
+        "title": "oxygen regulator",
+        "price": 85000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-1.jpg" } } }
       }
     },
