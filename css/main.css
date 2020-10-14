@@ -251,17 +251,24 @@ nav ul {
 .cart-btn {
     position: relative;
     cursor: pointer;
+    color: white;
 }
 
 .cart-items {
     position: absolute;
-    top: -8px;
-    right: -8px;
-    background: var(--primary-color);
-    padding: 0 5px;
-    border-radius: 30%;
+    font-size: 11px;
+    top: -7px;
+    right: -13px;
+    width: 14px;
+    height: 14px;
+    background: #f3425f;
+    border-radius: 50%;
     color: var(--mainWhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 /* --------------- End of Navbar ---------------- */
 
