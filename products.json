@@ -37,7 +37,7 @@
       "fields": {
         "title": "fridge",
         "price": 88.99,
-        "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-5.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-15.jpg" } } }
       }
     },
     {
@@ -110,14 +110,6 @@
         "title": "couch",
         "price": 45.99,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-14.jpg" } } }
-      }
-    },
-    {
-      "sys": { "id": "7" },
-      "fields": {
-        "title": "couch",
-        "price": 45.99,
-        "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-15.jpg" } } }
       }
     }
   ]
