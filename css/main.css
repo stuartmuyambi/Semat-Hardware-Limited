@@ -398,6 +398,7 @@ nav ul {
 
 .cart-header-close {
     width: 22px;
+    cursor: pointer;
 }
 
 .transparentBcg {
@@ -409,11 +410,6 @@ nav ul {
         width: 30vw;
         min-width: 450px;
     }
-}
-
-.close-cart {
-    font-size: 1.7rem;
-    cursor: pointer;
 }
 
 .cart h2 {
