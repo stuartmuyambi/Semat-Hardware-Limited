@@ -19,7 +19,7 @@
 :root {
     --grey: #65676b;
     --light-grey: #f2f3f5;
-    --primary-color: #ee6322;
+    --primary-color: #e35a19;
     --secondary-color: #03363d;
     --mainSpacing: 0.1rem;
     --mainBlack: #050505;
@@ -95,7 +95,7 @@ body {
 }
 
 .location {
-    background-color: #ee6322;
+    background-color: var(--primary-color);
     height: 40px;
     display: flex;
     align-items: center;
