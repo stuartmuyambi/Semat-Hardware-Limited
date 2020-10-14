@@ -376,7 +376,7 @@ nav ul {
     height: 100%;
     overflow: scroll;
     z-index: 3;
-    background: rgb(231, 226, 221);
+    background: #f2f2f2;
     transition: var(--mainTransition);
     transform: translateX(100%);
     border-bottom: 3px solid var(--primary-color);
