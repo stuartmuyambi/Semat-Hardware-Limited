@@ -95,25 +95,34 @@ body {
     color: #464b4d;
 }
 
-.location {
+.support {
     background-color: var(--primary-color);
-    height: 40px;
+    height: 30px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #c9ccd16e;
 }
 
-.delivery-text {
+.marker-text {
     font-size: 13px;
-    margin: 0;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.map-marker {
+.marker {
     --marker-color: #fff;
-    width: 18px;
-    margin-right: 2px;
+    width: 19px;
+    margin-right: 10px;
+}
+
+.bar {
+    font-size: 20px;
+    letter-spacing: 0;
+    color: white;
 }
 
 nav ul {
