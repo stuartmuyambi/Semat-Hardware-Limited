@@ -120,7 +120,7 @@ body {
 }
 
 .bar {
-    font-size: 20px;
+    font-size: 21px;
     letter-spacing: 0;
     color: white;
 }
@@ -194,6 +194,10 @@ nav ul {
 /* Hide the images by default */
 .mySlides {
     display: none;
+}
+
+.mySlides img {
+    width: 100%;
 }
 
 /* Next & previous buttons */
