@@ -21,7 +21,7 @@
     --light-grey: #f2f3f5;
     --primary-color: #e35a19;
     --secondary-color: #03363d;
-    --mainTransition: all 0.3s linear;
+    --mainTransition: all 0.2s linear;
 }
 
 body {
@@ -226,7 +226,7 @@ nav ul {
     height: 8px;
     width: 8px;
     margin: 0 2px;
-    background-color: #e35a194d;
+    background-color: #e4e9ec;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -288,6 +288,94 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cart-heading {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.btn {
+    padding: 9px 0;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: .8rem;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.btn-checkout {
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn-clear {
+    border: 1px solid var(--primary-color);
+    color: #111111;
+    transition: background 0.3s ease;
+    font-size: 13px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 15px 13px auto;
+}
+
+.btn-checkout:hover,
+.btn-checkout:focus {
+    color: white;
+    background-color: #b3430f;
+}
+
+.trash-btn {
+    --trash: #111111;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.checkout-container {
+    border-top: 1px solid #d2d6d9;
+    border-bottom: 1px solid #d2d6d9;
+    height: auto;
+    margin: 0 13px;
+    font-size: 14px;
+    padding: 10px 0;
+
+}
+
+.delivery-fee,
+.taxes {
+    text-align: right;
+    font-weight: bold;
+}
+
+.sub-total {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    grid-template-rows: 25px;
+}
+
+.total {
+    font-size: 13px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 13px 10px;
+    color: #111111;
 }
 
 /* --------------- Products ---------------- */
@@ -440,7 +528,7 @@ nav ul {
     align-items: center;
     grid-template-columns: 100px 1fr auto;
     /*grid-column-gap: 1.5rem;*/
-    margin: 1.5rem 0;
+    margin: 1.5rem 1.5rem 0 0;
 }
 
 .cart-item img {
@@ -485,3 +573,12 @@ nav ul {
 }
 
 /* --------------- End of Cart ---------------- */
+
+
+.home-cart-container {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    margin: 5px 10px;
+}
