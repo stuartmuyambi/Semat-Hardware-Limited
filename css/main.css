@@ -226,7 +226,8 @@ nav ul {
     height: 8px;
     width: 8px;
     margin: 0 2px;
-    background-color: #e4e9ec;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
