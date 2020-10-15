@@ -47,26 +47,27 @@ class UI {
         let result = "";
         products.forEach((product) => {
             result += ` 
-    		<!-- single product -->
-			<article class="product">
-				<div class="img-container">
-					<img 
-					src=${product.image} 
-					alt="Product image" 
-					class="product-img">
-					<button class="bag-btn" data-id=${product.id}>
-					<i class="fas fa-shopping-cart"></i> 
-					add to cart
-					</button>
-				</div>
-				<h3>${product.title}</h3>
-				<h4>UGX ${product.price}</h4>
-			</article>
-    		`;
+            <!-- single product -->
+            <article class="product">
+                <div class="img-container">
+                    <img 
+                    src=${product.image} 
+                    alt="Product image" 
+                    class="product-img">
+                    <button class="bag-btn" data-id=${product.id}>
+                    <i class="fas fa-shopping-cart"></i> 
+                    add to cart
+                    </button>
+                </div>
+                <h3>${product.title}</h3>
+                <h4>UGX ${product.price}</h4>
+            </article>
+            `;
         });
 
         productsDOM.innerHTML = result;
     }
+
     getBagButtons() {
         // this will turn the buttons into arrays
         const buttons = [...document.querySelectorAll(".bag-btn")];
@@ -113,26 +114,29 @@ class UI {
         cartTotal.innerText = parseFloat(tempTotal.toFixed(2));
         cartItems.innerText = itemsTotal;
     }
+
     addCartItem(item) {
         const div = document.createElement("div");
         div.classList.add("cart-item");
         div.innerHTML = `<img src=${item.image} alt="product image">
-					<div>
-						<h4>${item.title}</h4>
-						<h5>UGX${item.price}</h5>
-						<span class="remove-item" data-id=${item.id}>remove</span>
-					</div>
-					<div>
-						<i class="fas fa-chevron-up" data-id=${item.id}></i>
-						<p class="item-amount">${item.amount}</p>
-						<i class="fas fa-chevron-down" data-id=${item.id}></i>
-					</div>`;
+                    <div>
+                        <h4>${item.title}</h4>
+                        <h5>UGX${item.price}</h5>
+                        <span class="remove-item" data-id=${item.id}>remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up" data-id=${item.id}></i>
+                        <p class="item-amount">${item.amount}</p>
+                        <i class="fas fa-chevron-down" data-id=${item.id}></i>
+                    </div>`;
         cartContent.appendChild(div);
     }
+
     showCart() {
         cartOverlay.classList.add("transparentBcg");
         cartDOM.classList.add("showCart");
     }
+
     setupAPP() {
         cart = Storage.getCart();
         this.setCartValues(cart);
@@ -140,9 +144,11 @@ class UI {
         cartBtn.addEventListener("click", this.showCart);
         closeCartBtn.addEventListener("click", this.hideCart);
     }
+
     populateCart(cart) {
         cart.forEach((item) => this.addCartItem(item));
     }
+
     hideCart() {
         cartOverlay.classList.remove("transparentBcg");
         cartDOM.classList.remove("showCart");
@@ -187,6 +193,7 @@ class UI {
 
 
     }
+
     clearCart() {
         let cartItems = cart.map(item => item.id);
         cartItems.forEach(id => this.removeItem(id));
@@ -196,6 +203,7 @@ class UI {
         }
         this.hideCart();
     }
+
     removeItem(id) {
         cart = cart.filter(item => item.id !== id);
         this.setCartValues(cart);
@@ -204,29 +212,33 @@ class UI {
         button.disabled = false;
         button.innerHTML = `<i class="fas fa-shopping-cart"></i>add to cart`
     }
+
     getSingleButton(id) {
         return buttonsDOM.find(button => button.dataset.id === id);
     }
 }
-   
+
 // local storage
 class Storage {
     static saveProducts(products) {
         localStorage.setItem("products", JSON.stringify(products));
     }
+
     static getProduct(id) {
         let products = JSON.parse(localStorage.getItem("products"));
         return products.find((product) => product.id === id);
     }
+
     static saveCart(cart) {
         localStorage.setItem("cart", JSON.stringify(cart));
     }
 
     static getCart() {
-        return localStorage.getItem("cart")
-            ? JSON.parse(localStorage.getItem("cart"))
-            : [];
+        return localStorage.getItem("cart") ?
+            JSON.parse(localStorage.getItem("cart")) :
+            [];
     }
+    
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -246,4 +258,4 @@ document.addEventListener("DOMContentLoaded", () => {
             ui.getBagButtons();
             ui.cartLogic();
         });
-});   
+});
