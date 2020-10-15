@@ -34,7 +34,7 @@ body {
 .main-mobile-nav {
     background-color: var(--secondary-color);
     height: 90px;
-    padding: 13px 10px 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 10px;
+    margin: 0;
 }
 
 .menu-bar {
@@ -62,9 +62,9 @@ body {
 
 .search-bar {
     background-color: white;
-    border-radius: 3px;
+    border-radius: 4px;
     height: 35px;
-    padding: 5px 10px;
+    padding: 0 0 0 10px;
     display: flex;
     align-items: center;
     margin-top: auto;
@@ -81,6 +81,7 @@ body {
     width: 100%;
     padding-left: 5px;
     font-size: 13px;
+    border-radius: 0 4px 4px 0;
     color: var(--grey);
     height: 100%;
 }
