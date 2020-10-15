@@ -318,6 +318,11 @@ nav ul {
     border: none;
     color: white;
     background-color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.btn-checkout:active {
+    box-shadow: 0 0 0 0.2rem #ea4c4c34;
 }
 
 .btn-clear {
@@ -345,6 +350,12 @@ nav ul {
     margin-right: 5px;
 }
 
+.trash-remove {
+    --trash-remove: grey;
+    width: 13px;
+    margin-right: 2px;
+}
+
 .checkout-container {
     border-top: 1px solid #d2d6d9;
     border-bottom: 1px solid #d2d6d9;
@@ -358,7 +369,7 @@ nav ul {
 .delivery-fee,
 .taxes {
     text-align: right;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .sub-total {
@@ -528,7 +539,7 @@ nav ul {
     align-items: center;
     grid-template-columns: 100px 1fr auto;
     /*grid-column-gap: 1.5rem;*/
-    margin: 1.5rem 1.5rem 0 0;
+    margin: 1.5rem 1.4rem 0 0;
 }
 
 .cart-item img {
@@ -539,19 +550,25 @@ nav ul {
 .cart-item h4 {
     font-size: 0.85rem;
     text-transform: capitalize;
+    font-weight: normal;
 }
 
 .cart-item h5 {
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
+    font-weight: normal;
 }
 
 .item-amount {
     text-align: center;
+    font-size: 13px;
 }
 
 .remove-item {
     color: grey;
     cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
 }
 
 .fa-chevron-up,
