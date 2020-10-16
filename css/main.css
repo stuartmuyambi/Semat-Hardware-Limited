@@ -5,13 +5,18 @@
 }
 
 @font-face {
-    font-family: "Roboto-Regular";
+    font-family: "Roboto Regular";
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Roboto-Bold";
+    font-family: "Roboto Medium";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
     src: url(../fonts/Roboto/Roboto-Bold.ttf);
     font-weight: bold;
 }
@@ -25,7 +30,7 @@
 }
 
 body {
-    font-family: "Roboto-Regular";
+    font-family: "Roboto Regular";
 }
 
 .main-mobile-nav {
@@ -52,7 +57,7 @@ body {
 
 .logo {
     color: white;
-    font-family: "Roboto-Bold";
+    font-family: "Roboto Bold";
     text-transform: uppercase;
     font-size: 16px;
 }
