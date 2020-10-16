@@ -11,7 +11,7 @@
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "Construction Helmet",
+        "title": "Helmet",
         "price": 24000,
         "image": { "fields": { "file": { "url": "./images/sample-products/semat-hardware-limited-product-2.jpg" } } }
       }

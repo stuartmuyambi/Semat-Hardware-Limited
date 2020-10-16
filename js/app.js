@@ -54,13 +54,13 @@ class UI {
                     src=${product.image} 
                     alt="Product image" 
                     class="product-img">
-                    <button class="bag-btn" data-id=${product.id}>
-                    <i class="fas fa-shopping-cart"></i> 
-                    add to cart
-                    </button>
                 </div>
                 <h3>${product.title}</h3>
                 <h4>UGX ${product.price}</h4>
+                <button class="bag-btn add-cart-btn" data-id=${product.id}>
+                    <i class="fas fa-shopping-cart"></i> 
+                    add to cart
+                </button>
             </article>
             `;
         });
