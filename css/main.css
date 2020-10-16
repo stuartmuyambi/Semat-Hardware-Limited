@@ -21,7 +21,7 @@
     --light-grey: #edeff0;
     --primary-color: #5fcf80;
     --secondary-color: #3e474f;
-    --mainTransition: all 0.2s linear;
+    --mainTransition: all 0.1s linear;
 }
 
 body {
@@ -294,6 +294,7 @@ nav ul {
 .cart-heading {
     color: white;
     font-size: 1.3rem;
+    color: #b2bbbd;
 }
 
 .btn-group {
@@ -328,7 +329,7 @@ nav ul {
 
 .btn-clear {
     border: 1px solid var(--primary-color);
-    color: #111111;
+    color: #576366;
     transition: background 0.3s ease;
     font-size: 13px;
     border: none;
@@ -336,7 +337,13 @@ nav ul {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin: 0 15px 13px auto;
+    margin: auto 15px 13px auto;
+    background-color: white;
+    /*transition: var(--mainTransition);*/
+}
+
+.btn-clear:hover {
+    color: var(--primary-color);
 }
 
 .btn-checkout:hover,
@@ -346,9 +353,13 @@ nav ul {
 }
 
 .trash-btn {
-    --trash: #111111;
-    width: 15px;
-    margin-right: 5px;
+    --trash: #576366;
+    width: 13px;
+    margin-right: 3px;
+}
+
+.btn-clear:hover .trash-btn {
+    --trash: #5fcf80;
 }
 
 .trash-remove {
@@ -376,16 +387,20 @@ nav ul {
     grid-template-columns: 1fr 1fr;
     text-align: left;
     grid-template-rows: 25px;
+    font-size: 13px;
 }
 
 .total {
-    font-size: 13px;
+    font-size: 12px;
     text-transform: capitalize;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px 13px 10px;
+    padding-top: 20px;
     color: #7b8b8e;
+    border-top: 1px solid #e0e0e0;
+
 }
 
 /* --------------- Products ---------------- */
@@ -497,6 +512,7 @@ nav ul {
     border-bottom: 3px solid var(--primary-color);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .showCart {
@@ -582,10 +598,9 @@ nav ul {
 /*---------- End of Cart Item -------------------- */
 
 .cart-footer {
-    margin-top: auto;
     text-align: center;
     background-color: #f9fafa;
-    border-top: 2px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
     padding: 20px 0;
 }
 
