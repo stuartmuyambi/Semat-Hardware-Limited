@@ -324,7 +324,7 @@ nav ul {
 }
 
 .btn-checkout:active {
-    box-shadow: 0 0 0 0.2rem #ea4c4c34;
+    box-shadow: 0 0 0 0.2rem #3ac1624f;
 }
 
 .btn-clear {
@@ -349,7 +349,7 @@ nav ul {
 .btn-checkout:hover,
 .btn-checkout:focus {
     color: white;
-    background-color: #b3430f;
+    background-color: #3ac162;
 }
 
 .promo-link {
