@@ -18,9 +18,9 @@
 
 :root {
     --grey: #626262;
-    --light-grey: #f2f3f5;
-    --primary-color: #e35a19;
-    --secondary-color: #03363d;
+    --light-grey: #edeff0;
+    --primary-color: #5fcf80;
+    --secondary-color: #3e474f;
     --mainTransition: all 0.2s linear;
 }
 
@@ -358,8 +358,6 @@ nav ul {
 }
 
 .checkout-container {
-    border-top: 1px solid #d2d6d9;
-    border-bottom: 1px solid #d2d6d9;
     height: auto;
     margin: 0 13px;
     font-size: 14px;
@@ -387,7 +385,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     margin: 20px 13px 10px;
-    color: #111111;
+    color: #7b8b8e;
 }
 
 /* --------------- Products ---------------- */
@@ -492,10 +490,13 @@ nav ul {
     height: 100%;
     overflow: scroll;
     z-index: 3;
-    background: #f2f2f2;
+    background: #fff;
     transition: var(--mainTransition);
     transform: translateX(100%);
+    color: #7b8b8e;
     border-bottom: 3px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .showCart {
@@ -581,8 +582,11 @@ nav ul {
 /*---------- End of Cart Item -------------------- */
 
 .cart-footer {
-    margin-top: 2rem;
+    margin-top: auto;
     text-align: center;
+    background-color: #f9fafa;
+    border-top: 2px solid #e0e0e0;
+    padding: 20px 0;
 }
 
 .cart-footer h3 {
