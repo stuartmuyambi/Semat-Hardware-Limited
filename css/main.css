@@ -20,6 +20,7 @@
 
 body {
     font-family: "Roboto Regular";
+    background-color: #f5f7f8;
 }
 
 .main-mobile-nav {
@@ -123,7 +124,7 @@ nav ul {
     position: fixed;
     bottom: 0;
     background-color: white;
-    border-top: 1px solid #c9ccd1;
+    border-top: 1px solid #d4dbe0;
     padding: 10px 18px;
     display: flex;
     justify-content: space-between;
@@ -138,12 +139,13 @@ nav ul {
 }
 
 .mobile-icon {
+    --icon-color: #7b8b8e;
     width: 19px;
     margin-bottom: 5px;
 }
 
 .mobile-icon-label {
-    color: var(--grey);
+    color: #7b8b8e;
 }
 
 .icon-container {
@@ -276,7 +278,7 @@ nav ul {
     right: -13px;
     width: 14px;
     height: 14px;
-    background: var(--primary-color);
+    background: #ff654e;
     border-radius: 50%;
     color: var(--mainWhite);
     display: flex;
