@@ -1,1 +1,2 @@
 # Semat Hardware Online Store
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a41f4f4c-366a-4322-b491-53cd7df5e7db/deploy-status)](https://app.netlify.com/sites/semat-hardware-limited/deploys)
